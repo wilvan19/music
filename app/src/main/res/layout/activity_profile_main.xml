@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueDark"
+    tools:context=".profile_main">
+
+    <!-- Image Wilvan -->
+    <ImageView
+        android:id="@+id/image_wilvan1"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/image_wilvan"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="Gambar Wilvan"
+        android:layout_marginTop="32dp" />
+
+    <!-- Nama Wilvan -->
+    <TextView
+        android:id="@+id/text_wilvan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wilvan Nugraha"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/image_wilvan1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Kelas Wilvan -->
+    <TextView
+        android:id="@+id/text_wilvan_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BM5B"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/text_wilvan_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <!-- NIM Wilvan -->
+    <TextView
+        android:id="@+id/text_wilvan_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2203421021"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/text_wilvan_class"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <!-- Image Zaki -->
+    <ImageView
+        android:id="@+id/image_zaki1"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/zaki"
+        app:layout_constraintTop_toBottomOf="@id/text_wilvan_nim"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="Gambar Zaki"
+        android:layout_marginTop="32dp" />
+
+    <!-- Nama Zaki -->
+    <TextView
+        android:id="@+id/text_zaki_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zaki Abdussalam"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/image_zaki1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Kelas Zaki -->
+    <TextView
+        android:id="@+id/text_zaki_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BM5B"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/text_zaki_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <!-- NIM Zaki -->
+    <TextView
+        android:id="@+id/text_zaki_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2203421030"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/text_zaki_class"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
